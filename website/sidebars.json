@@ -32,7 +32,8 @@
 		"Garment-Creation/Stitch-Shapes",
 		"Garment-Creation/Assign-Material",
 		"Garment-Creation/Select-Avatar",
-		"Garment-Creation/Dress-a-Garment"
+		"Garment-Creation/Dress-a-Garment",
+		"Garment-Creation/Grading"
 ], 
     "Costing": [
 		"Costing/Get-surface-area-material",
