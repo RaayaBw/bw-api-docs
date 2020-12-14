@@ -12,6 +12,36 @@ To learn more about the rest of the API, please refer to <a href="https://gitlab
 ## Sample Plugin
 Sample plugin for garment creation is available <a href="https://gitlab.com/browzwear/share/open-platform/client-api/-/tree/master/sample-plugins/python/GarmentCreation" target="_blank">here</a>
 
+## Setting Current Avatar
+
+### Code Snippet
+
+<br/>
+<!--DOCUSAURUS_CODE_TABS-->
+
+<!--Python-->
+```python
+# assuming avatarId is a valid avatar id in the system
+BwApi.AvatarCurrentSet(avatarId)
+```
+<!--C++-->
+```cpp
+// assuming avatarId is a valid avatar id in the system
+BwApiAvatarCurrentSet(avatarId);
+```
+<!--C#-->
+```csharp
+// assuming avatarId is a valid avatar id in the system
+BwApi.AvatarCurrentSet(avatarId);
+```
+<!--END_DOCUSAURUS_CODE_TABS-->
+
+<br/>
+
+### Result
+![](../assets/select-avatar/set-current.png)
+
+
 ## Dress Garment
 
 ### Code Snippet

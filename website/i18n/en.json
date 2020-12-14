@@ -59,6 +59,9 @@
       "Garment-Creation/Assign-Material": {
         "title": "Assign Material"
       },
+      "Garment-Creation/Create-Avatar": {
+        "title": "Create an Avatar"
+      },
       "Garment-Creation/Create-Edge": {
         "title": "Create Edge"
       },
@@ -66,10 +69,7 @@
         "title": "Create Shape"
       },
       "Garment-Creation/Dress-a-Garment": {
-        "title": "Dress a garment"
-      },
-      "Garment-Creation/Select-Avatar": {
-        "title": "Select Avatar"
+        "title": "Dress a Garment"
       },
       "Garment-Creation/Stitch-Shapes": {
         "title": "Stitch Shapes"
