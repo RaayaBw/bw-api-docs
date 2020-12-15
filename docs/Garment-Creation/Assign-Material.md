@@ -58,10 +58,26 @@ BwApiEdgeMaterialIdSet(garmentId, shapeId, edgeId, materialId);
 ### Result
 ![](../assets/assign-material/assign-seam.png)
 
-## Assign Artwork
+## Assign Artwork/Trim
 
 ### Code Snippet
+<!--DOCUSAURUS_CODE_TABS-->
 
-## Assign Trim
+<!--Python-->
+```python
+materialContainerId = BwApi.MaterialContainerCreate(garmentId, shapeId, materialId, transformation, drawPlace) 
+```
+<!--C++-->
+```cpp
+BwApiMaterialContainerCreate(garmentId, shapeId, materialId, transformation, drawPlace, materialContainerId);
+```
+<!--C#-->
+```csharp
+BwApiMaterialContainerCreate(garmentId, shapeId, materialId, transformation, drawPlace, materialContainerId);
+```
+<!--END_DOCUSAURUS_CODE_TABS-->
 
-### Code Snippet
+<br/>
+
+### Result
+![](../assets/assign-material/assign-artwork.png)

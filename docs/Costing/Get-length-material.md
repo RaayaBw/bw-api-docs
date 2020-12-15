@@ -10,7 +10,7 @@ title: Get length material
 <!--Python-->
 ```python
 # get an existing material length and depth (works only on lines and seams)
-length, depth = BwApi.MaterialSurfaceAreaGet(garmentId, colorwayId, materialId, sizeId)
+length, depth = BwApi.MaterialLengthGet(garmentId, colorwayId, materialId, sizeId)
 ```
 <!--C++-->
 ```cpp
