@@ -21,7 +21,7 @@ const siteConfig = {
   headerLinks: [
     {doc: 'Introduction/Introduction', label: 'Docs'},
     {href: "https://gitlab.com/browzwear/share/open-platform/client-api", label: "", external: true },
-    {search: true},
+    {search: false},
   ],
 
   /* path to images for header/footer */
@@ -42,11 +42,11 @@ const siteConfig = {
       'Open Sans'
     ],
   },
-  algolia: {
-    apiKey: '720d68a9a99bae2f0ac49c90d78d68ad',
-    indexName: 'test_API_DOCS',
-    placeholder: ' '
-  },
+  // algolia: {
+  //   apiKey: '720d68a9a99bae2f0ac49c90d78d68ad',
+  //   indexName: 'test_API_DOCS',
+  //   placeholder: ' '
+  // },
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} Browzwear`,
 
