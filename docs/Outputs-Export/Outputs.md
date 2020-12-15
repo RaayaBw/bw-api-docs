@@ -11,12 +11,13 @@ To learn more about the rest of the API, please refer to <a href="https://gitlab
 
 
 ## Sample Plugin
-Sample plugin for export output is available <a href="https://gitlab.com/browzwear/share/open-platform/client-api/-/tree/master/sample-plugins/python/Render" target="_blank">here</a>
+Sample plugin for export output is available <a href="https://gitlab.com/browzwear/share/open-platform/client-api/-/tree/master/samples/python/render" target="_blank">here</a>
  
 ## Rendering an Image
 
 ### Code Snippet
-The code snippet below shows how to render the current garment as an image. The render image function receives a JSON file (as a string) that contains all the render image information. For more information, refer to: app installation folder\Resources\schema\v1\render.json.
+The code snippet below shows how to render the current garment as an image. The render image function receives a JSON file (as a string) that contains all the render image information. <br>
+For more information, refer to the <a href="https://gitlab.com/browzwear/share/open-platform/client-api/-/blob/master/BWPlugin/schema/api/v3.4/render/render.json" target="_blank">schema</a>. 
 <br/>
 <!--DOCUSAURUS_CODE_TABS-->
 
@@ -46,7 +47,8 @@ BwApi.RenderImage(garmentId, renderJson);
 ## Exporting a 3D Object
 
 ### Code Snippet
-The code snippet below shows how to export the current garment as a 3D object . The export 3D object function receives a JSON file (as a string) that contains all the exported information. For more information, refer to: app installation folder\Resources\schema\v3\export_3d_object.json.
+The code snippet below shows how to export the current garment as a 3D object . The export 3D object function receives a JSON file (as a string) that contains all the exported information. <br>
+For more information, refer to the <a href="https://gitlab.com/browzwear/share/open-platform/client-api/-/blob/master/BWPlugin/schema/api/v3.3/render/export_3d_object.json" target="_blank">schema</a>. 
 <br/>
 <!--DOCUSAURUS_CODE_TABS-->
 

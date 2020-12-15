@@ -44,5 +44,5 @@ VStitcher / Lotta Tech-Pack export produces a directory with image assets and an
 ![](../assets/techpack/techpack-dirs.png)
 
 ## Techpack schema
-You can find the schema for output.json <a href="https://gitlab.com/browzwear/share/open-platform/client-api/-/tree/master/BWPlugin/schema/api" target="_blank">here</a>
+You can find the schema for output.json <a href="https://gitlab.com/browzwear/share/open-platform/client-api/-/blob/master/BWPlugin/schema/api/v3.6/garment/tech_pack.json" target="_blank">here</a>
 

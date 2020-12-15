@@ -89,6 +89,7 @@ class SamplePluginCallback : CallbackBase
 
 
 ## Creating an external html window
+<a href="https://gitlab.com/browzwear/share/open-platform/client-api/-/tree/master/boilerplates/ui-elements" target="_blank">Here</a> you can find a boilerplate for creating an external html window.
 
 ## Register to system events
 You can register your plugin to be notified when certain system events happen. <br/>

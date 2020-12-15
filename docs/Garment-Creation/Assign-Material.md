@@ -8,7 +8,9 @@ Assign Material is how you add a material to a shape or edge of a garment. Use t
 For more information about the feature, please visit <a href="https://support.browzwear.com/VStitcher/Materials/materials.htm" target="_blank">here</a>.
 
 ## Sample Plugin
-Sample plugin for garment creation is available <a href="https://gitlab.com/browzwear/share/open-platform/client-api/-/tree/master/sample-plugins/python/GarmentCreation" target="_blank">here</a>
+Sample plugin for garment creation is available <a href="https://gitlab.com/browzwear/share/open-platform/client-api/-/tree/master/samples/python/SamplePluginPython" target="_blank">here</a>
+
+Sample plugin for Materials is available <a href="https://gitlab.com/browzwear/share/open-platform/client-api/-/tree/master/samples/python/u3m" target="_blank">here</a>
 
 ## Assign Fabric
 

@@ -6,6 +6,8 @@ Costing is how you may get information of consumption of materials and calculate
 
 To learn more about the rest of the API, please refer to <a href="https://gitlab.com/browzwear/share/open-platform/client-api/-/blob/master/BWPlugin/include/CAD/BWPluginAPI_Edge.h" target="_blank">GarmentCost</a> in the repository.
 
+## Sample Plugin
+Sample plugin for costing is available <a href="https://gitlab.com/browzwear/share/open-platform/client-api/-/tree/master/samples/python/costing" target="_blank">here</a>
 
 ## Get Surface Area of Material in Use
 ### Code Snippet
