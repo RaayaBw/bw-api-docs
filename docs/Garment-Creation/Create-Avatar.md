@@ -16,3 +16,26 @@ Sample plugin for Avatars is available <a href="https://gitlab.com/browzwear/sha
 
 ### Code Snippet
 
+<!--DOCUSAURUS_CODE_TABS-->
+
+<!--Python-->
+```python
+avatarId = BwApi.BwApiAvatarCreate(avatarTemplate, newName, avatarId)
+# update measurements - the json jsonAvatarMeasurements will be validated with the avatar measurements schema.
+BwApi.AvatarMeasurementsUpdate(jsonAvatarMeasurements)
+```
+<!--C++-->
+```cpp
+BwApiAvatarCreate(avatarTemplate, newName, &avatarId);
+// update measurements - the json jsonAvatarMeasurements will be validated with the avatar measurements schema.
+BwApiAvatarMeasurementsUpdate(jsonAvatarMeasurements)
+```
+<!--C#-->
+```csharp
+BwApiAvatarCreate(avatarTemplate, newName, &avatarId);
+// update measurements - the json jsonAvatarMeasurements will be validated with the avatar measurements schema.
+BwApiAvatarMeasurementsUpdate(jsonAvatarMeasurements)
+```
+<!--END_DOCUSAURUS_CODE_TABS-->
+
+<br/>
